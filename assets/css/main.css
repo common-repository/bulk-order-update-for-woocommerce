@@ -1,0 +1,157 @@
+.bouw-container {
+    position: relative;
+    padding: 20px;
+    max-height: 500px;
+    overflow: hidden;
+}
+.bouw-table-preview {
+    height: 400px;
+    overflow-x: scroll;
+    background: #f3f3f3;
+    margin: 20px 0px 0px;
+}
+
+.bouw-table-action {
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+    background: #000000d4;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.bouw-table-action select {
+    margin: 0px 8px;
+}
+
+tr#error_column {
+    box-shadow: 0px 0px 3px #ff4b4b;
+}
+.bour-header {
+    margin-bottom: 20px;
+    position: relative;
+    border-bottom: 1px solid #afafaf;
+}
+a.bouw_settings {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bouw-config-panel {
+    background: #81ccff;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.bouw-config-panel input {
+    /* background: #62b9ff; */
+    border: 0px;
+    margin-right: 40px;
+    clear: both;
+    color: #5555b5;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+p.bouw_hint {
+    text-align: left;
+    color: #7b7b7b;
+}
+.bouw_preload {
+    width: 100%;
+    height: 100%;
+    background: #000000c9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.bouw-order-config {
+    margin-top: 20px;
+}
+
+.bouw_preload > img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 15% auto 40px;
+}
+
+.bouw_preload span.bouw_loader_message {
+    color: #ffffff;
+}
+
+.bouw-table-preview table {
+    text-align: left;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.bouw-table-preview table tr {
+    background: #fff;
+}
+
+.bouw-table-preview table tr.completed {
+    background: #a8ffa7 !important;
+}
+
+
+.bouw-table-preview table tr.refunded {
+    background: #abf3ff;
+}
+
+
+.bouw-table-preview tr.failed, .bouw-table-preview table tr.cancelled {
+    background: #ff6a6a !important;
+}
+
+.bouw-table-preview tr.on-hold, .bouw-table-preview tr.pending {
+    background: #ffffa9 !important;
+}
+
+.bouw-table-preview tr.processing {
+    background: #ffd07a !important;
+}
+
+.bouw-table-preview table tr td, .bouw-table-preview table tr th {
+    border: 1px solid #d0d0d0;
+    padding: 10px;
+}
+
+p.Progress.Counter {
+    text-align: center;
+    color: #fffff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p#anime-1 {
+    color: #ffc63f !important;
+}
+
+p#anime-2 {
+    color: #ff3a4e !important;
+}
+
+p#anime-3 {
+    color: #3d6fa6 !important
+}
+
+p#anime-4 {
+    color: #79b949 !important
+}
+
+p#anime-5 {
+    color: #4a6e9c !important;
+}
+
+p#anime-6 {
+    color: #ffc63f !important;
+}
